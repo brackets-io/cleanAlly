@@ -1,4 +1,4 @@
-# cleanAlly
+Clean Ally HTML
 ===
 Brackets extension that replaces certain tags (&lt;figure&gt;, &lt;style&gt;) to cleanup the HTML produced from the Blackboard Ally tool
   
