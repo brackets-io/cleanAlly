@@ -1,0 +1,18 @@
+{
+    "name": "mactoph.ally-cleanup",
+    "title": "Clean Ally HTML",
+    "description": "An extension to remove extraenous code from HTML produced by Blackboard Ally.",
+    "homepage": "https://github.com/usu-access/cleanAlly/",
+    "version": "1.0.0",
+    "author": "Christopher Phillips accessibility@usu.edu (https://github.com/usu-access)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.7"
+    },
+    "keywords":["regex","search-replace"],
+    "bugs": "https://github.com/usu-access/cleanAlly/issues",
+    "files": [
+        "main.js",
+        "README.md"
+    ],
+}
