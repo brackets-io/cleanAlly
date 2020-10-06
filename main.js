@@ -26,10 +26,40 @@ define(function (require, exports, module) {
             const searchCSS = /<style>?(.|\n)*?.*<\/style>/g;
             const replaceCSS = "<style></style>";
 
+            const searchLang = /.lang="....."/g;
+            const replaceLang = "";
+             
+            const searchDir = /.dir="..."/g;
+            const replaceDir = "";
+
+            const searchListone = /.start="1"/g;
+            const replaceListone = "";
+
+            const searchListtype = /.type="1"/g;
+            const replaceListtype = "";            
+
+            const searchSpan = /<span>/g;
+            const replaceSpan = "";
+
+            const searchSpanend = /<\/span>/g;
+            const replaceSpanend = "";
+
+            const searchDiv = /<div>/g;
+            const replaceDiv = "";
+            
+            const searchDivend = /<\/div>/g;
+            const replaceDivend = "";
             
             htmlContent = htmlContent.replace(searchFigure, replaceFigure);
             htmlContent = htmlContent.replace(searchCSS, replaceCSS);
-
+            htmlContent = htmlContent.replace(searchLang, replaceLang);
+            htmlContent = htmlContent.replace(searchSpan, replaceSpan);
+            htmlContent = htmlContent.replace(searchSpanend, replaceSpanend);
+            htmlContent = htmlContent.replace(searchDir, replaceDir);
+            htmlContent = htmlContent.replace(searchListone, replaceListone);
+            htmlContent = htmlContent.replace(searchListtype, replaceListtype);
+            htmlContent = htmlContent.replace(searchDiv, replaceDiv);
+            htmlContent = htmlContent.replace(searchDivend, replaceDivend);
             activeText.setText(htmlContent);
 
             // restore cursor and scroll positions
