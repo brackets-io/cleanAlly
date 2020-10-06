@@ -3,7 +3,7 @@
     "title": "Clean Ally HTML",
     "description": "An extension to remove extraenous code from HTML produced by Blackboard Ally.",
     "homepage": "https://github.com/usu-access/cleanAlly/",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Christopher Phillips accessibility@usu.edu (https://github.com/usu-access)",
     "license": "MIT",
     "engines": {
