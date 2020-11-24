@@ -23,7 +23,7 @@ define(function (require, exports, module) {
             const searchFigure = /<figure>?(.|\n)*?.*<\/figure>/g;
             const replaceFigure = "[IMAGE]";
 
-            const searchCSS = /<style>?(.|\n)*?.*<\/style>/g;
+            const searchCSS = /<style( |.)*?>(.|\n)*?<\/style>/g;
             const replaceCSS = "<style></style>";
 
             const searchLang = /.lang="....."/g;
